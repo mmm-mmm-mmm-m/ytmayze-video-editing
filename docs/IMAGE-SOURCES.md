@@ -6,7 +6,9 @@ These stills were rendered from the creator's Saint Alien Freestyle 2 V27 edit f
 | --- | --- | --- |
 | `images/laptop-showcase.png` | Saint Alien V27, 05:11.000 at 30 fps | Real note-entry screen, highlighted modifiers and explanatory text |
 | `images/daw-framing.png` | Saint Alien V27, 05:43.000 at 30 fps | Focused DAW playback with performer context and a restrained caption |
-| `images/overview.svg` | Original diagram made for this repository | Human rough cut, directed passes and review; the eight skill areas |
+| `images/overview.svg` | Original diagram made for this repository, using the creator's rooot interface as a visual reference | Human rough cut, directed passes and review; the eight skill areas |
+
+The overview uses rooot's soft blush palette and existing pixel logo as a small “from rooot.online” credit. The reference screenshot itself is not redistributed. This brand credit does not introduce a rooot account, service or runtime requirement.
 
 The creator requested publication of examples from their videos. The selected rendered frames were visually inspected for account details, local paths, notifications and unrelated personal information. They exclude the third-party celebrity-photo overlay sequence. PNG metadata was inspected before publication.
 
