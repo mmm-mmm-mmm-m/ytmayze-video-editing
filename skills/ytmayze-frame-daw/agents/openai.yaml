@@ -1,0 +1,4 @@
+interface:
+  display_name: "@ytmayze DAW Framing"
+  short_description: "Frame notes, controls, camera and playback clearly"
+  default_prompt: "Use $ytmayze-frame-daw to frame this tutorial around the active notes and controls with smooth tracking."

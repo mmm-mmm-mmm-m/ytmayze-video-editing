@@ -1,0 +1,4 @@
+interface:
+  display_name: "@ytmayze Video Sound Design"
+  short_description: "Place expressive foley and SFX around the music"
+  default_prompt: "Use $ytmayze-design-sound to improve the action sounds and transitions while protecting the original music and approved audio."

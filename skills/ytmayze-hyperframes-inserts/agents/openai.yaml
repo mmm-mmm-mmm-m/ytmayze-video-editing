@@ -1,0 +1,4 @@
+interface:
+  display_name: "@ytmayze HyperFrames Inserts"
+  short_description: "Build editable inserts that fit the tutorial"
+  default_prompt: "Use $ytmayze-hyperframes-inserts to build an editable insert that fits this tutorial\u2019s context, timing and audio."

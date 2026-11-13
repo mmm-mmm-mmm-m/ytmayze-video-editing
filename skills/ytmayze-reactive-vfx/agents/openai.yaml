@@ -1,0 +1,4 @@
+interface:
+  display_name: "@ytmayze Reactive VFX"
+  short_description: "Sync screen motion to bass, kicks and actions"
+  default_prompt: "Use $ytmayze-reactive-vfx to map these screen effects to the audible kicks, bass and slides without losing framing."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "@ytmayze Video Editing"
+  short_description: "Coordinate entertaining music tutorial edits"
+  default_prompt: "Use $ytmayze-video-editing to improve this music tutorial while preserving its strongest musical and comedy moments."

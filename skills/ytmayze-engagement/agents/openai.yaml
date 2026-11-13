@@ -1,0 +1,4 @@
+interface:
+  display_name: "@ytmayze Memes and On-Screen Engagement"
+  short_description: "Give memes, captions and cards context and payoff"
+  default_prompt: "Use $ytmayze-engagement to make these on-screen moments feel intentional, readable and funny in context."

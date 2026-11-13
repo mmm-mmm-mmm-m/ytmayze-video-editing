@@ -1,0 +1,4 @@
+interface:
+  display_name: "@ytmayze Reusable Effect Presets"
+  short_description: "Save and adapt editable effects and showcases"
+  default_prompt: "Use $ytmayze-effect-presets to save or adapt this treatment as a reusable editable preset."

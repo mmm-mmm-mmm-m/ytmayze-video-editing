@@ -1,0 +1,4 @@
+interface:
+  display_name: "@ytmayze Musical Pacing"
+  short_description: "Shape tutorial rhythm while letting music land"
+  default_prompt: "Use $ytmayze-pace-music to strengthen the pacing while letting the musical demonstrations and payoffs land."

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="740" viewBox="0 0 1200 740" role="img" aria-labelledby="title desc">
+  <title id="title">@ytmayze video editing: rough cut, direction, focused passes, review</title>
+  <desc id="desc">A human makes a rough cut and supplies taste and references. The agent helps with framing, musical pacing, reactive visuals, sound, jokes, inserts and reusable effects. The creator watches, listens and gives feedback for another pass.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#a8c97b"/></marker>
+  </defs>
+  <rect width="1200" height="740" rx="24" fill="#111715"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="48" y="54" fill="#c5ef8f" font-size="20" font-weight="700">@ytmayze</text>
+    <text x="1152" y="54" fill="#b3bdb7" font-size="16" text-anchor="end">EXPERIMENTAL · HUMAN-DIRECTED</text>
+    <text x="48" y="112" fill="#f0f3e9" font-size="40" font-weight="700">Your rough cut. Your creative direction.</text>
+    <text x="48" y="150" fill="#b3bdb7" font-size="22">A focused editing companion, developed through real tutorial iterations.</text>
+
+    <g fill="#1c2520">
+      <rect x="48" y="194" width="244" height="122" rx="12"/>
+      <rect x="334" y="194" width="244" height="122" rx="12"/>
+      <rect x="620" y="194" width="244" height="122" rx="12"/>
+      <rect x="906" y="194" width="246" height="122" rx="12"/>
+    </g>
+    <g stroke="#a8c97b" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M300 254H324"/><path d="M586 254H610"/><path d="M872 254H896"/>
+    </g>
+    <g fill="#c5ef8f" font-size="16" font-weight="700">
+      <text x="68" y="224">01 / YOUR EDIT</text><text x="354" y="224">02 / YOUR DIRECTION</text>
+      <text x="640" y="224">03 / AGENT PASS</text><text x="926" y="224">04 / YOUR FEEDBACK</text>
+    </g>
+    <g fill="#f0f3e9" font-size="25" font-weight="700">
+      <text x="68" y="260">Make a rough cut</text><text x="354" y="260">Choose a passage</text>
+      <text x="640" y="260">Refine the moment</text><text x="926" y="260">Watch + listen</text>
+    </g>
+    <g fill="#b3bdb7" font-size="17">
+      <text x="68" y="290">Keep the musical story</text><text x="354" y="290">Timecodes + references</text>
+      <text x="640" y="290">Named, editable copy</text><text x="926" y="290">Give notes, then iterate</text>
+    </g>
+    <path d="M1028 325V348H456V325" fill="none" stroke="#a8c97b" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="671" y="336" width="118" height="24" fill="#111715"/>
+    <text x="730" y="354" text-anchor="middle" fill="#b3bdb7" font-size="16">another pass</text>
+
+    <text x="48" y="403" fill="#f0f3e9" font-size="25" font-weight="700">What the eight skills help you think through</text>
+    <g fill="#1c2520">
+      <rect x="48" y="430" width="261" height="92" rx="10"/><rect x="329" y="430" width="261" height="92" rx="10"/>
+      <rect x="610" y="430" width="261" height="92" rx="10"/><rect x="891" y="430" width="261" height="92" rx="10"/>
+      <rect x="48" y="540" width="261" height="92" rx="10"/><rect x="329" y="540" width="261" height="92" rx="10"/>
+      <rect x="610" y="540" width="261" height="92" rx="10"/><rect x="891" y="540" width="261" height="92" rx="10"/>
+    </g>
+    <g fill="#f0f3e9" font-size="22" font-weight="700">
+      <text x="68" y="465">Editing direction</text><text x="349" y="465">DAW framing</text>
+      <text x="630" y="465">Musical pacing</text><text x="911" y="465">Reactive visuals</text>
+      <text x="68" y="575">Sound design</text><text x="349" y="575">Jokes + typography</text>
+      <text x="630" y="575">Editable inserts</text><text x="911" y="575">Reusable effects</text>
+    </g>
+    <g fill="#b3bdb7" font-size="17">
+      <text x="68" y="494">Scope, priorities, handoff</text><text x="349" y="494">Keep the action readable</text>
+      <text x="630" y="494">Let sounds and jokes land</text><text x="911" y="494">Follow bass, hits and slides</text>
+      <text x="68" y="604">Cues that fit the action</text><text x="349" y="604">Context, setup and payoff</text>
+      <text x="630" y="604">Connect picture and audio</text><text x="911" y="604">Adapt a useful treatment</text>
+    </g>
+    <text x="48" y="690" fill="#c5ef8f" font-size="20">Leave room for quiet, musical resolution and the creator’s taste.</text>
+  </g>
+</svg>
