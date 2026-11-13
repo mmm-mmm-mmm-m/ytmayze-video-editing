@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1-preview — 2026-11-13
+
+- Redesigned the overview with a light blush surface, magenta accents, rounded steps and line icons inspired by the creator's rooot interface.
+- Added a small “from rooot.online” logo credit and link. The skills and installation workflow are unchanged.
+
 ## 0.1.0-preview — 2026-11-13
 
 - Published eight experimental skills under the lowercase `ytmayze` name, independently of the unchanged private skills.

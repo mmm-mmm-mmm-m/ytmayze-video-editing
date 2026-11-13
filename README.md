@@ -57,4 +57,4 @@ No raw project media or templates are bundled. See [Contributing](CONTRIBUTING.m
 
 License decision pending; see [License options](docs/LICENSE-OPTIONS.md).
 
-Project: [github.com/mmm-mmm-mmm-m/ytmayze-video-editing](https://github.com/mmm-mmm-mmm-m/ytmayze-video-editing) · [YouTube: @ytmayze](https://www.youtube.com/@ytmayze)
+Made by [@ytmayze](https://www.youtube.com/@ytmayze) · from [rooot.online](https://rooot.online)

@@ -1,60 +1,97 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="740" viewBox="0 0 1200 740" role="img" aria-labelledby="title desc">
-  <title id="title">@ytmayze video editing: rough cut, direction, focused passes, review</title>
-  <desc id="desc">A human makes a rough cut and supplies taste and references. The agent helps with framing, musical pacing, reactive visuals, sound, jokes, inserts and reusable effects. The creator watches, listens and gives feedback for another pass.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="840" viewBox="0 0 1240 840" role="img" aria-labelledby="title desc">
+  <title id="title">@ytmayze video editing: your rough cut, your creative direction</title>
+  <desc id="desc">An experimental human-directed workflow: make a rough cut, provide timecodes and references, ask an agent for a focused editable pass, then watch, listen and give feedback. Eight skills cover editing direction, DAW framing, musical pacing, reactive visuals, sound, jokes and typography, editable inserts, and reusable effects. A small footer credits rooot.online.</desc>
   <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#a8c97b"/></marker>
+    <linearGradient id="blush" x1="0" y1="0" x2="1" y2="0.7"><stop stop-color="#f5f1f4"/><stop offset="0.55" stop-color="#f6f5f3"/><stop offset="1" stop-color="#f5ddeb"/></linearGradient>
+    <radialGradient id="peach"><stop stop-color="#ffe4d3" stop-opacity="0.9"/><stop offset="1" stop-color="#ffe4d3" stop-opacity="0"/></radialGradient>
+    <clipPath id="hero-clip"><rect x="1" y="1" width="1238" height="237" rx="31"/></clipPath>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope="0.035"/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/></filter>
+    <marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7" fill="#9c929a"/></marker>
+    <filter id="soft-shadow" x="-20%" y="-30%" width="140%" height="170%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#7b3c61" flood-opacity="0.09"/></filter>
   </defs>
-  <rect width="1200" height="740" rx="24" fill="#111715"/>
-  <g font-family="Arial, Helvetica, sans-serif">
-    <text x="48" y="54" fill="#c5ef8f" font-size="20" font-weight="700">@ytmayze</text>
-    <text x="1152" y="54" fill="#b3bdb7" font-size="16" text-anchor="end">EXPERIMENTAL · HUMAN-DIRECTED</text>
-    <text x="48" y="112" fill="#f0f3e9" font-size="40" font-weight="700">Your rough cut. Your creative direction.</text>
-    <text x="48" y="150" fill="#b3bdb7" font-size="22">A focused editing companion, developed through real tutorial iterations.</text>
+  <rect x="0.5" y="0.5" width="1239" height="839" rx="32" fill="#fff" stroke="#efedf0"/>
+  <g clip-path="url(#hero-clip)">
+    <rect x="1" y="1" width="1238" height="237" fill="url(#blush)" filter="url(#grain)"/>
+    <ellipse cx="1035" cy="240" rx="330" ry="230" fill="url(#peach)"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#111014">
+    <text x="48" y="47" font-size="18" font-weight="700">@ytmayze <tspan fill="#68606b" font-weight="400">/ video editing</tspan></text>
+    <rect x="1057" y="25" width="135" height="32" rx="16" fill="#fff" fill-opacity="0.75"/>
+    <circle cx="1075" cy="41" r="3.5" fill="#d4007a"/>
+    <text x="1087" y="46" font-size="14" fill="#4f4651">experimental</text>
+    <text x="48" y="109" font-size="48" font-weight="700" letter-spacing="-1.6">your rough cut.</text>
+    <text x="48" y="163" font-size="48" font-weight="700" letter-spacing="-1.6">your creative direction.</text>
+    <text x="48" y="207" font-size="19" fill="#534b56">eight skills to help your agent refine music tutorials.</text>
 
-    <g fill="#1c2520">
-      <rect x="48" y="194" width="244" height="122" rx="12"/>
-      <rect x="334" y="194" width="244" height="122" rx="12"/>
-      <rect x="620" y="194" width="244" height="122" rx="12"/>
-      <rect x="906" y="194" width="246" height="122" rx="12"/>
+    <g transform="translate(827 83)" filter="url(#soft-shadow)">
+      <rect width="365" height="128" rx="18" fill="#fff" fill-opacity="0.87"/>
+      <text x="20" y="29" font-size="14" fill="#6f6571">your working cut</text>
+      <rect x="249" y="15" width="96" height="23" rx="11.5" fill="#fbebf4"/>
+      <text x="297" y="31" text-anchor="middle" font-size="12" fill="#c50071">focused pass</text>
+      <path d="M20 51H345M20 79H345M20 107H345" stroke="#f1edf0"/>
+      <g fill="#dfdbe1"><rect x="20" y="54" width="90" height="17" rx="4"/><rect x="116" y="54" width="112" height="17" rx="4"/><rect x="234" y="54" width="111" height="17" rx="4"/></g>
+      <g fill="#f0d3e4"><rect x="20" y="82" width="174" height="17" rx="4"/><rect x="200" y="82" width="145" height="17" rx="4"/></g>
+      <rect x="87" y="110" width="20" height="6" rx="3" fill="#d4007a"/><rect x="160" y="110" width="13" height="6" rx="3" fill="#d4007a"/><rect x="285" y="110" width="22" height="6" rx="3" fill="#d4007a"/>
+      <path d="M221 46V119" stroke="#d4007a" stroke-width="1.5"/><path d="M216 44H226L221 50Z" fill="#d4007a"/>
     </g>
-    <g stroke="#a8c97b" stroke-width="2" marker-end="url(#arrow)">
-      <path d="M300 254H324"/><path d="M586 254H610"/><path d="M872 254H896"/>
-    </g>
-    <g fill="#c5ef8f" font-size="16" font-weight="700">
-      <text x="68" y="224">01 / YOUR EDIT</text><text x="354" y="224">02 / YOUR DIRECTION</text>
-      <text x="640" y="224">03 / AGENT PASS</text><text x="926" y="224">04 / YOUR FEEDBACK</text>
-    </g>
-    <g fill="#f0f3e9" font-size="25" font-weight="700">
-      <text x="68" y="260">Make a rough cut</text><text x="354" y="260">Choose a passage</text>
-      <text x="640" y="260">Refine the moment</text><text x="926" y="260">Watch + listen</text>
-    </g>
-    <g fill="#b3bdb7" font-size="17">
-      <text x="68" y="290">Keep the musical story</text><text x="354" y="290">Timecodes + references</text>
-      <text x="640" y="290">Named, editable copy</text><text x="926" y="290">Give notes, then iterate</text>
-    </g>
-    <path d="M1028 325V348H456V325" fill="none" stroke="#a8c97b" stroke-width="2" marker-end="url(#arrow)"/>
-    <rect x="671" y="336" width="118" height="24" fill="#111715"/>
-    <text x="730" y="354" text-anchor="middle" fill="#b3bdb7" font-size="16">another pass</text>
 
-    <text x="48" y="403" fill="#f0f3e9" font-size="25" font-weight="700">What the eight skills help you think through</text>
-    <g fill="#1c2520">
-      <rect x="48" y="430" width="261" height="92" rx="10"/><rect x="329" y="430" width="261" height="92" rx="10"/>
-      <rect x="610" y="430" width="261" height="92" rx="10"/><rect x="891" y="430" width="261" height="92" rx="10"/>
-      <rect x="48" y="540" width="261" height="92" rx="10"/><rect x="329" y="540" width="261" height="92" rx="10"/>
-      <rect x="610" y="540" width="261" height="92" rx="10"/><rect x="891" y="540" width="261" height="92" rx="10"/>
-    </g>
-    <g fill="#f0f3e9" font-size="22" font-weight="700">
-      <text x="68" y="465">Editing direction</text><text x="349" y="465">DAW framing</text>
-      <text x="630" y="465">Musical pacing</text><text x="911" y="465">Reactive visuals</text>
-      <text x="68" y="575">Sound design</text><text x="349" y="575">Jokes + typography</text>
-      <text x="630" y="575">Editable inserts</text><text x="911" y="575">Reusable effects</text>
-    </g>
-    <g fill="#b3bdb7" font-size="17">
-      <text x="68" y="494">Scope, priorities, handoff</text><text x="349" y="494">Keep the action readable</text>
-      <text x="630" y="494">Let sounds and jokes land</text><text x="911" y="494">Follow bass, hits and slides</text>
-      <text x="68" y="604">Cues that fit the action</text><text x="349" y="604">Context, setup and payoff</text>
-      <text x="630" y="604">Connect picture and audio</text><text x="911" y="604">Adapt a useful treatment</text>
-    </g>
-    <text x="48" y="690" fill="#c5ef8f" font-size="20">Leave room for quiet, musical resolution and the creator’s taste.</text>
+    <text x="48" y="288" font-size="26" font-weight="700" letter-spacing="-0.5">a simple loop</text>
+    <text x="1192" y="286" font-size="15" fill="#6d6570" text-anchor="end">one passage at a time</text>
+    <rect x="48" y="310" width="262" height="109" rx="22" fill="#f5f4f5"/>
+    <text x="68" y="339" font-size="13" fill="#9c567f">01</text>
+    <text x="68" y="371" font-size="24" font-weight="700" letter-spacing="-0.4">rough cut</text>
+    <text x="68" y="398" font-size="16" fill="#68606b">keep the musical story</text>
+    <path d="M318 365H331" stroke="#9c929a" stroke-width="1.4" marker-end="url(#arrow)"/>
+    <rect x="342" y="310" width="262" height="109" rx="22" fill="#fbecf4"/>
+    <text x="362" y="339" font-size="13" fill="#9c567f">02</text>
+    <text x="362" y="371" font-size="24" font-weight="700" letter-spacing="-0.4">give direction</text>
+    <text x="362" y="398" font-size="16" fill="#68606b">timecodes + references</text>
+    <path d="M612 365H625" stroke="#9c929a" stroke-width="1.4" marker-end="url(#arrow)"/>
+    <rect x="636" y="310" width="262" height="109" rx="22" fill="#f5f4f5"/>
+    <text x="656" y="339" font-size="13" fill="#9c567f">03</text>
+    <text x="656" y="371" font-size="24" font-weight="700" letter-spacing="-0.4">agent pass</text>
+    <text x="656" y="398" font-size="16" fill="#68606b">a named, editable copy</text>
+    <path d="M906 365H919" stroke="#9c929a" stroke-width="1.4" marker-end="url(#arrow)"/>
+    <rect x="930" y="310" width="262" height="109" rx="22" fill="#f5f4f5"/>
+    <text x="950" y="339" font-size="13" fill="#9c567f">04</text>
+    <text x="950" y="371" font-size="24" font-weight="700" letter-spacing="-0.4">review + repeat</text>
+    <text x="950" y="398" font-size="16" fill="#68606b">watch, listen, give notes</text>
+    <path d="M1061 430V456H473V430" fill="none" stroke="#b5a8b2" stroke-width="1.3" marker-end="url(#arrow)"/>
+    <rect x="606" y="443" width="322" height="25" fill="#fff"/>
+    <text x="767" y="461" font-size="14" text-anchor="middle" fill="#7c6977">keep what works. give another note.</text>
+    <text x="48" y="517" font-size="26" font-weight="700" letter-spacing="-0.5">what’s in the kit</text>
+    <text x="1192" y="515" font-size="15" fill="#6d6570" text-anchor="end">use what the moment needs</text>
+    <g transform="translate(48 550)" fill="none" stroke="#514a55" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5H20M4 12H20M4 19H20M9 2V8M16 9V15M8 16V22"/></g>
+    <text x="83" y="568" font-size="20" font-weight="700" letter-spacing="-0.25">editing direction</text>
+    <text x="48" y="599" font-size="16" fill="#6c6370">scope, priorities, handoff</text>
+    <g transform="translate(342 550)" fill="none" stroke="#514a55" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="14" rx="3"/><path d="M8 22H16M12 18V22M7 9H12M10 13H17"/></g>
+    <text x="377" y="568" font-size="20" font-weight="700" letter-spacing="-0.25">DAW framing</text>
+    <text x="342" y="599" font-size="16" fill="#6c6370">keep the action readable</text>
+    <g transform="translate(636 550)" fill="none" stroke="#514a55" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12H6L9 4L14 20L17 12H21"/></g>
+    <text x="671" y="568" font-size="20" font-weight="700" letter-spacing="-0.25">musical pacing</text>
+    <text x="636" y="599" font-size="16" fill="#6c6370">let sounds and jokes land</text>
+    <g transform="translate(930 550)" fill="none" stroke="#514a55" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L14 8L20 5L17 11L23 13L16 15L18 21L12 18L7 23L8 16L2 14L8 11L5 5L11 8Z"/></g>
+    <text x="965" y="568" font-size="20" font-weight="700" letter-spacing="-0.25">reactive visuals</text>
+    <text x="930" y="599" font-size="16" fill="#6c6370">follow bass, hits and slides</text>
+    <g transform="translate(48 648)" fill="none" stroke="#514a55" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10V15M8 5V20M13 8V17M18 3V22M23 10V15"/></g>
+    <text x="83" y="666" font-size="20" font-weight="700" letter-spacing="-0.25">sound design</text>
+    <text x="48" y="697" font-size="16" fill="#6c6370">cues that fit the action</text>
+    <g transform="translate(342 648)" fill="none" stroke="#514a55" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4H21V17H10L5 22V17H3Z"/><path d="M7 9H17M7 13H14"/></g>
+    <text x="377" y="666" font-size="20" font-weight="700" letter-spacing="-0.25">jokes + typography</text>
+    <text x="342" y="697" font-size="16" fill="#6c6370">context, setup and payoff</text>
+    <g transform="translate(636 648)" fill="none" stroke="#514a55" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="M10 9L16 12L10 15Z"/></g>
+    <text x="671" y="666" font-size="20" font-weight="700" letter-spacing="-0.25">editable inserts</text>
+    <text x="636" y="697" font-size="16" fill="#6c6370">connect picture and audio</text>
+    <g transform="translate(930 648)" fill="none" stroke="#514a55" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><path d="M14 17H22M18 13V21"/></g>
+    <text x="965" y="666" font-size="20" font-weight="700" letter-spacing="-0.25">reusable effects</text>
+    <text x="930" y="697" font-size="16" fill="#6c6370">adapt a useful treatment</text>
+    <path d="M48 738H1192" stroke="#eeebef"/>
+    <text x="48" y="779" font-size="20" font-weight="700" letter-spacing="-0.3">let the music resolve. let the joke land.</text>
+    <rect x="947" y="755" width="245" height="52" rx="26" fill="#f5f4f5"/>
+    <rect x="962" y="765" width="32" height="32" rx="9" fill="#101013"/>
+    <g transform="translate(967 776) scale(2)" shape-rendering="crispEdges"><path style="fill:var(--mark-tile-ink,#ffffff)" d="M0 0h3v1H1v4H0zM2 1h1v1H2z"></path><path style="fill:var(--mark-tile-accent,#ff43b8)" d="M5 0h1v1H5zM4 1h3v1H4zM5 2h1v1H5zM4 3h1v1H4zM6 3h1v1H6zM9 4h2v1H9z"></path></g>
+    <text x="1007" y="775" font-size="12" fill="#786d7a">from</text>
+    <text x="1007" y="795" font-size="18" font-weight="700">rooot.online</text>
+    <path d="M1162 781H1175M1170 776L1175 781L1170 786" fill="none" stroke="#d4007a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 </svg>
