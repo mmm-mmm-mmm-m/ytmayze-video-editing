@@ -2,7 +2,7 @@
 
 An experimental set of eight agent skills for shaping music-production tutorials: clearer DAW framing, musical pacing, reactive effects, action-matched sound, contextual humor, and editable inserts.
 
-These skills grew out of two real edits, **Saint Alien** and **Cranky Glow**. In both cases, a person made the rough cut first, then directed many rounds of agent-assisted refinement. The workflow starts with your rough cut and develops through your direction and feedback. Raw-footage cutting and complete tutorials from one prompt remain untested. The agent needs your taste and feedback; music often needs room to resolve, and jokes need room to land.
+These skills grew out of two real edits, **Saint Alien** and **Cranky Glo** (https://youtu.be/c5-xFglvO5I). In both cases, a person made the rough cut first, then directed many rounds of agent-assisted refinement. The workflow starts with your rough cut and develops through your direction and feedback. Raw-footage cutting and complete tutorials from one prompt remain untested. The agent needs your taste and feedback; music often needs room to resolve, and jokes need room to land.
 
 ![Overview of the ytmayze video-editing workflow](docs/images/overview.svg)
 
