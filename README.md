@@ -1,8 +1,12 @@
 # ytmayze video editing
 
-An experimental set of eight agent skills for shaping music-production tutorials: clearer DAW framing, musical pacing, reactive effects, action-matched sound, contextual humor, and editable inserts.
+A developing set of eight agent skills for fast-paced engaging music-production tutorials: focused FL screen framing, musical pacing, reactive effects, action-matched sound, contextual humor, and editable inserts.
 
-These skills grew out of two real edits, **ChatGPT is my new video editor** (https://youtu.be/S_UFBbEQlFs) and **Cranky Glo** (https://youtu.be/c5-xFglvO5I). In both cases, a person made the rough cut first, then directed many rounds of agent-assisted refinement. The workflow starts with your rough cut and develops through your direction and feedback. Raw-footage cutting and complete tutorials from one prompt remain untested. The agent needs your taste and feedback; music often needs room to resolve, and jokes need room to land.
+[human written: start]
+
+These skills were built from two real edits, **making slop** (https://youtu.be/S_UFBbEQlFs) and **Cranky Glo** (https://youtu.be/c5-xFglvO5I). In both cases, A human made the rough cut first, then directed many rounds of agent-assisted refinement. The workflow starts with your rough cut and develops through your direction and feedback. Its best to first nail cuts/pacing then move to positioning, framing, crops, then animation (zooms, movement, etc). Next vfx, sfx, and memes as finishing touches. You can let your agent decide everything on its own but youll likely just burn through usage with nothing other than shattered dreams (even a tiny bit of direction goes a long way). Raw-footage cutting and complete tutorials from one prompt remain untested. The agent needs your taste and feedback.
+
+[human written: end]
 
 ![Overview of the ytmayze video-editing workflow](docs/images/overview.svg)
 
@@ -18,9 +22,13 @@ Choose all eight skills in the installer. To ask your agent to install them:
 
 In Codex, invoke the main skill with `$ytmayze-video-editing`. In Claude Code, use `/ytmayze-video-editing`.
 
+[human written: start]
+
 ## A practical workflow
 
-Make a rough cut first, then give your agent the editable project and its media. Start with one short passage. Name the exact in and out timecodes, what you want to improve, and what must stay untouched. Attach any style references, drawings, images, audio, or meme clips that should guide the pass. If something is missing, tell the agent whether it may source material and set the limits of that permission. Review the passage, give concrete feedback, and iterate.
+Make a rough cut first, then give your agent the editable project and its media. Start with one short passage. Name the exact in and out timecodes, what you want to improve, and what must stay the same. Attach any style references, drawings, images, audio, or memes. Explain exactly what is happening, give it context (in the clip before xyz was happening, its important because xyz, in this clip xyz, it feels slow, preserve the music but it needs something on screen to bring energy while the musical phrase is landing). If something is missing, tell the agent whether it may source material and feed it your taste throughout (i like...). Review the passage, give concrete feedback, and iterate.
+
+[human written: end]
 
 For example:
 
@@ -45,7 +53,7 @@ Sound, framing, pacing and entertainment layers are areas this workflow explores
 
 ## Examples
 
-The images below are **source-style examples** from **ChatGPT is my new video editor** (https://youtu.be/S_UFBbEQlFs), one of the edits that informed the skills. They are not demonstrations that this public release independently produced those edits.
+The images below are **source-style examples** from **making slop** (https://youtu.be/S_UFBbEQlFs), one of the edits that informed the skills. They are not demonstrations that this public release independently produced those edits.
 
 ![Laptop framing example from a source-style edit](docs/images/laptop-showcase.png)
 
