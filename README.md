@@ -4,7 +4,7 @@ A developing set of eight agent skills for fast-paced engaging music-production 
 
 [human written: start]
 
-These skills were built from two real edits, **making slop** (https://youtu.be/S_UFBbEQlFs) and **Cranky Glo** (https://youtu.be/c5-xFglvO5I). In both cases, A human made the rough cut first, then directed many rounds of agent-assisted refinement. The workflow starts with your rough cut and develops through your direction and feedback. Its best to first nail cuts/pacing then move to positioning, framing, crops, then animation (zooms, movement, etc). Next vfx, sfx, and memes as finishing touches. You can let your agent decide everything on its own but youll likely just burn through usage with nothing other than shattered dreams (even a tiny bit of direction goes a long way). Raw-footage cutting and complete tutorials from one prompt remain untested. The agent needs your taste and feedback.
+These skills were built from two real edits, **making slop** (https://youtu.be/S_UFBbEQlFs) and **Cranky Glo** (https://youtu.be/c5-xFglvO5I). In both cases, A human made the rough cut first, then directed many rounds of agent-assisted refinement. The workflow starts with your rough cut and develops through your direction and feedback. Its best to first nail cuts/pacing then move to positioning, framing, crops, then animation (zooms, movement, etc). Next vfx, sfx, and memes as finishing touches. You can let your agent decide everything on its own but youll likely burn through usage with nothing to show for other than broken dreams (even a tiny bit of direction goes a long way). Raw-footage cutting and complete tutorials from one prompt remain untested. The agent needs your taste and feedback.
 
 [human written: end]
 
