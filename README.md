@@ -45,7 +45,7 @@ Sound, framing, pacing and entertainment layers are areas this workflow explores
 
 ## Examples
 
-The images below are **source-style examples** from Saint Alien V27, one of the edits that informed the skills. They are not demonstrations that this public release independently produced those edits.
+The images below are **source-style examples** from **ChatGPT is my new video editor** (https://youtu.be/S_UFBbEQlFs), one of the edits that informed the skills. They are not demonstrations that this public release independently produced those edits.
 
 ![Laptop framing example from a source-style edit](docs/images/laptop-showcase.png)
 
