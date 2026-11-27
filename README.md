@@ -1,6 +1,6 @@
 # ytmayze video editing
 
-A developing set of eight agent skills for fast-paced engaging music-production tutorials: focused FL screen framing, musical pacing, reactive effects, action-matched sound, contextual humor, and editable inserts.
+A developing set of nine agent skills for music-production tutorials and short vertical plugin demos. The kit covers FL Studio framing, musical pacing, reactive effects, action-matched sound, contextual humor, and editable inserts.
 
 [human written: start]
 
@@ -16,9 +16,9 @@ These skills were built from two real edits, **making slop** (https://youtu.be/S
 npx skills add mmm-mmm-mmm-m/ytmayze-video-editing
 ```
 
-Choose all eight skills in the installer. To ask your agent to install them:
+Choose all nine skills in the installer. To ask your agent to install them:
 
-> Install all eight skills from https://github.com/mmm-mmm-mmm-m/ytmayze-video-editing. Inspect them first, preserve any existing same-named skills, and tell me where they were installed. Do not edit any media yet.
+> Install all nine skills from https://github.com/mmm-mmm-mmm-m/ytmayze-video-editing. Inspect them first, preserve any existing same-named skills, and tell me where they were installed. Do not edit any media yet.
 
 In Codex, invoke the main skill with `$ytmayze-video-editing`. In Claude Code, use `/ytmayze-video-editing`.
 
@@ -41,6 +41,7 @@ See [Usage](docs/USAGE.md) for a fuller prompt and workflow. The agent needs acc
 | Skill | Focus |
 | --- | --- |
 | `ytmayze-video-editing` | Broad review and edit planning; routes work to focused guidance |
+| `ytmayze-vertical-plugin-demos` | Feed hooks, native plugin proof, voice-to-beat reveals, and mobile delivery review |
 | `ytmayze-frame-daw` | DAW crops, mouse and playhead tracking, webcam placement, vertical framing |
 | `ytmayze-pace-music` | Musical breathing room, note-building continuity, comedy holds and reveals |
 | `ytmayze-reactive-vfx` | Pumps, bass motion, slides, glow and distortion tied to sound or action |

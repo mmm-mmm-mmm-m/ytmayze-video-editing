@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SKILLS = {
     "ytmayze-video-editing", "ytmayze-frame-daw", "ytmayze-pace-music",
     "ytmayze-reactive-vfx", "ytmayze-design-sound", "ytmayze-engagement",
-    "ytmayze-hyperframes-inserts", "ytmayze-effect-presets",
+    "ytmayze-hyperframes-inserts", "ytmayze-effect-presets", "ytmayze-vertical-plugin-demos",
 }
 ROOT_FILES = {"README.md", "CONTRIBUTING.md", "CHANGELOG.md", "VERSION", ".gitignore", "LICENSE", "LICENSE.txt"}
 SUFFIXES = {".md", ".py", ".yaml", ".yml", ".svg", ".png"}
@@ -68,7 +68,7 @@ def main():
     errors = []
     actual = {p.name for p in (ROOT / "skills").iterdir() if p.is_dir()}
     if actual != SKILLS:
-        errors.append("skill directory set differs from the eight public skills")
+        errors.append("skill directory set differs from the public skill list")
     for path in sorted(ROOT.rglob("*")):
         rel = path.relative_to(ROOT)
         if ".git" in rel.parts or "__pycache__" in rel.parts:
@@ -144,7 +144,7 @@ def main():
     if errors:
         print("Release checks failed:\n" + "\n".join(errors))
         return 1
-    print("Public package checks passed: eight skills, metadata, links, file allowlist, privacy patterns and PNG metadata.")
+    print(f"Public package checks passed: {len(SKILLS)} skills, metadata, links, file allowlist, privacy patterns and PNG metadata.")
     print("Human review of images, private context and creative claims is still required.")
     return 0
 

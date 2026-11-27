@@ -2,7 +2,7 @@
 
 ## What this is for
 
-ytmayze video editing is an experimental set of skills for agent-assisted refinement of music-production tutorials. The source tutorials were rough-cut by a person first, then improved through many directed iterations with an agent. Reliable raw-footage cutting and complete tutorials from one prompt remain untested.
+ytmayze video editing is an experimental set of skills for agent-assisted refinement of music-production tutorials and short vertical plugin demos. The source tutorials were rough-cut by a person first, then improved through many directed iterations with an agent. Reliable raw-footage cutting and complete tutorials from one prompt remain untested.
 
 The workflow is most useful when you can give specific direction and review short passages. The agent does not start with your creative taste. Tell it what matters, what to protect, and what is not working. Leave room for musical phrases to resolve and for jokes to breathe; an edit can feel rushed even when the visuals are busy.
 
@@ -20,6 +20,10 @@ The workflow is most useful when you can give specific direction and review shor
 > Use `$ytmayze-video-editing` on my rough-cut music tutorial. Edit **01:12–01:28** only. Make the piano-roll note entry easier to follow and keep the full mouse gesture visible. Preserve all cut points, music timing, source offsets, and webcam placement. Follow the attached framing sketch. You may use only the attached assets; do not search for or download media. Make a named editable copy, then show me this passage before applying the same treatment elsewhere. Tell me which project and media you inspected and what you could not verify.
 
 For Claude Code, invoke `/ytmayze-video-editing` in place of `$ytmayze-video-editing`. The skill may route a focused task to a companion skill, such as `ytmayze-frame-daw` for framing or `ytmayze-design-sound` for action-matched foley.
+
+## Vertical plugin demos
+
+Use `$ytmayze-vertical-plugin-demos` for a release cut. Supply the strongest exported cut, its editable timeline or source captures, and separate narration and beat tracks if available. Identify the change you want and the parts to preserve. A narrated screen recording can carry the exact version, playback time, and a live circle or typed label over the issue. For upload framing, include a screenshot from the affected phone playback surface.
 
 ## Directing the iteration
 

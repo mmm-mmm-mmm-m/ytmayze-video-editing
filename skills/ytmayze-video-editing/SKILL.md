@@ -1,6 +1,6 @@
 ---
 name: "ytmayze-video-editing"
-description: "Help refine rough-cut music-production tutorials through directed agent iterations: DAW framing, musical pacing, sound, effects and contextual entertainment. Use for a focused or broad polish pass inspired by @ytmayze’s edits."
+description: "Help refine rough-cut music-production tutorials and short vertical plugin demos through directed agent iterations: DAW framing, musical pacing, sound, effects and contextual entertainment. Use for a focused or broad polish pass inspired by @ytmayze’s edits."
 ---
 
 # @ytmayze Video Editing
@@ -25,10 +25,11 @@ Identify the editor, accessible project/media and available playback/render tool
 
 ## Choose the useful skills
 
-Load only the skills needed for the pass, if available. The public kit contains all eight; if a companion is missing, use available guidance and identify any missing specialist workflow:
+Load only the skills needed for the pass, if available. The public kit includes the companions below; if a companion is missing, use available guidance and identify any missing specialist workflow:
 
 | Need | Skill |
 | --- | --- |
+| Short vertical plugin release, native product proof, and feed delivery | `$ytmayze-vertical-plugin-demos` |
 | Readable notes, mouse/playhead tracking, camera placement or vertical layout | `$ytmayze-frame-daw` |
 | Flat moments, phrase lengths, action progression or reveal timing | `$ytmayze-pace-music` |
 | Kick/bass pumps, slides, synchronized glow, distortion or motion | `$ytmayze-reactive-vfx` |
