@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vertical Plugin Demos"
+  short_description: "Edit vertical product releases and plugin demos"
+  default_prompt: "Use $ytmayze-vertical-plugin-demos to refine this vertical plugin demo while preserving its strongest hook, music reveal, and native product proof."

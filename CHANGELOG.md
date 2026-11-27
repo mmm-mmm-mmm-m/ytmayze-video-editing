@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.0-preview — 2026-11-27
+
+- Added a vertical plugin demo skill for feed hooks, native product proof, voice-to-beat contrast, and targeted revisions.
+- Added mobile crop, platform playback, HDR comparison, and trial-result review guidance.
+
 ## 0.1.1-preview — 2026-11-13
 
 - Redesigned the overview with a light blush surface, magenta accents, rounded steps and line icons inspired by the creator's rooot interface.
